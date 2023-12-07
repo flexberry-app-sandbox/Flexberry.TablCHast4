@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-tabl-c-hast-4-школа-e",
+  "editForm": "i-i-s-tabl-c-hast-4-школа-e",
+  "external": false,
+  "caption": "Школа",
+  "name": "IISTablCHast_4ШколаL",
+  "className": "ШколаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-tabl-c-hast-4-школа",
+      "modelProjection": "ШколаL"
+    }
+  ]
+}

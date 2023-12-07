@@ -1,0 +1,68 @@
+﻿{
+  "name": "IISTablCHast_4Ученик",
+  "modelName": "i-i-s-tabl-c-hast-4-ученик",
+  "className": "Ученик",
+  "nameSpace": "IIS.TablCHast_4",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "назв",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "улица",
+      "relatedTo": "i-i-s-tabl-c-hast-4-улица",
+      "inverse": "ученик"
+    }
+  ],
+  "projections": [
+    {
+      "name": "УченикE",
+      "modelName": "i-i-s-tabl-c-hast-4-ученик",
+      "attrs": [
+        {
+          "name": "назв",
+          "caption": "Назв",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "УлицаE",
+          "caption": "Улица",
+          "name": "улица",
+          "relatedTo": "i-i-s-tabl-c-hast-4-улица",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "УченикL",
+      "modelName": "i-i-s-tabl-c-hast-4-ученик",
+      "attrs": [
+        {
+          "name": "назв",
+          "caption": "Назв",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

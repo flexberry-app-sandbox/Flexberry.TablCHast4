@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-tabl-c-hast-4-дом-e",
+  "editForm": "i-i-s-tabl-c-hast-4-дом-e",
+  "external": false,
+  "caption": "Дом",
+  "name": "IISTablCHast_4ДомL",
+  "className": "ДомL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-tabl-c-hast-4-дом",
+      "modelProjection": "ДомL"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-tabl-c-hast-4-ученик-e",
+  "editForm": "i-i-s-tabl-c-hast-4-ученик-e",
+  "external": false,
+  "caption": "Ученик",
+  "name": "IISTablCHast_4УченикL",
+  "className": "УченикL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-tabl-c-hast-4-ученик",
+      "modelProjection": "УченикL"
+    }
+  ]
+}

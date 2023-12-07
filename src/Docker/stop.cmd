@@ -1,0 +1,1 @@
+docker-compose -p tablchast_4 down

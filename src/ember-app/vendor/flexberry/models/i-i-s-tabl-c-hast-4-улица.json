@@ -1,0 +1,77 @@
+﻿{
+  "name": "IISTablCHast_4Улица",
+  "modelName": "i-i-s-tabl-c-hast-4-улица",
+  "className": "Улица",
+  "nameSpace": "IIS.TablCHast_4",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "назв",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "дом",
+      "relatedTo": "i-i-s-tabl-c-hast-4-дом",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "ученик",
+      "relatedTo": "i-i-s-tabl-c-hast-4-ученик",
+      "inverse": "улица"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "УлицаE",
+      "modelName": "i-i-s-tabl-c-hast-4-улица",
+      "attrs": [
+        {
+          "name": "назв",
+          "caption": "Назв",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Номер",
+          "lookupValueField": "номер",
+          "relationName": "Дом",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номер",
+              "caption": "Номер",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Дом",
+          "name": "дом",
+          "relatedTo": "i-i-s-tabl-c-hast-4-дом",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

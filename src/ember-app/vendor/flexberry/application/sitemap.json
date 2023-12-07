@@ -1,0 +1,36 @@
+﻿{
+  "applicationCaption": "Tabl c hast_4",
+  "applicationTitle": "Tabl c hast_4",
+  "items": [
+    {
+      "link": null,
+      "menuName": "tabl-c-hast-4",
+      "caption": "TablCHast_4",
+      "title": "TablCHast_4",
+      "children": [
+        {
+          "link": "i-i-s-tabl-c-hast-4-школа-l",
+          "menuName": null,
+          "caption": "Школа",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-tabl-c-hast-4-дом-l",
+          "menuName": null,
+          "caption": "Дом",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-tabl-c-hast-4-ученик-l",
+          "menuName": null,
+          "caption": "Ученик",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

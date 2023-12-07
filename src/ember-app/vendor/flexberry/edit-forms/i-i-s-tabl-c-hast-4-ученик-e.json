@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "дом",
+      "displayAttributeName": "номер",
+      "required": true,
+      "relationName": "Улица.Дом",
+      "projection": "ДомL",
+      "detailModelName": "i-i-s-tabl-c-hast-4-улица"
+    }
+  ],
+  "external": false,
+  "caption": "Ученик",
+  "name": "IISTablCHast_4УченикE",
+  "className": "УченикE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-tabl-c-hast-4-ученик",
+      "modelProjection": "УченикE"
+    }
+  ]
+}

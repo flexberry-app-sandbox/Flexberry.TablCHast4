@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Ученик",
+      "projection": "УченикL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Школа",
+  "name": "IISTablCHast_4ШколаE",
+  "className": "ШколаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-tabl-c-hast-4-школа",
+      "modelProjection": "ШколаE"
+    }
+  ]
+}
